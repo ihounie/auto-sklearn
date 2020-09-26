@@ -33,3 +33,9 @@ RUN pip3 install jupyter
 
 # Install
 RUN pip3 install -e /auto-sklearn/
+
+#MY STUFF:
+RUN pip install comet_ml
+
+
+ENTRYPOINT [ "/bin/bash" ]
