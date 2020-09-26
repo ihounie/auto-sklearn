@@ -38,4 +38,4 @@ RUN pip3 install -e /auto-sklearn/
 RUN pip install comet_ml
 
 
-ENTRYPOINT [ "/bin/bash" ]
+ENTRYPOINT [ "/bin/bash" ,  "-l", "-c"]
